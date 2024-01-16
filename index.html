@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knockles</title>
+    <link rel="icon" type="image/x-icon" href="static/logo knockles 1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-scroll-container>
+    <nav class="navbar">
+      <a href="#home">
+        <img
+        src="static/logo knockles 1.png"
+        class="logo"
+        alt="logo"
+        style="z-index: 999"
+        />
+      </a>
+      <div class="menu_items">
+        <a href="#home" class="active">Home</a>
+        <a href="#ourstory" class="">Our Story</a>
+        <a href="#tokenomics" class="">Tokenomics</a>
+        <a href="#knockle_maps" class="">Knockles Map</a>
+        <a href="#follow" class="">Follow Us</a>
+      </div>
+      <button type="button" class="menu_btn" id="menu_btn">
+        <span class="material-symbols-outlined" id="open">menu</span>
+        <span class="material-symbols-outlined" id="close">close</span>
+      </button>
+      <div class="mob_menu_items">
+        <a href="#home">Home</a>
+        <a href="#ourstory">Our Story</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#knockle_maps">Knockles Map</a>
+        <a href="#follow">Follow Us</a>
+      </div>
+    </nav>
+    <div class="wrapper" id="wrapper">
+      <div class="home" id="home">
+        <h1>Knockles</h1>
+      
+   
+        <img
+          src="static/hero_cartoon.gif"
+          class="hero_cartoon"
+          alt="kncokles"
+        />
+      </div>
+      <div class="ourstory" id="ourstory">
+        <!-- <img src="static/Video.png" alt="video" class="video" /> -->
+        <div class="video_wrapper">
+          <video class="video" height="240px" controls autoplay>
+            <source src="static/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="play_btn_wrapper">
+            <img src="static/Play.png" alt="" class="play_btn" />
+          </div>
+        </div>
+        <a href="#">View Chart</a>
+        <div class="media-scroller-wrapper">
+          <button id="left"><img src="static/prev.png" alt="" /></button>
+          <div class="media-scroller snaps-inline">
+            <div class="media-element">
+            <img src="static/memes/1.png" alt="">
+          </div>
+          <div class="media-element">
+            <img src="static/memes/2.png" alt="">
+            
+          </div>
+          <div class="media-element">
+            <img src="static/memes/3.png" alt="">
+            
+          </div>
+          <div class="media-element">
+            <img src="static/memes/1.png" alt="">
+            
+          </div>
+          <div class="media-element">
+            <img src="static/memes/2.png" alt="">
+          </div>
+          <div class="media-element">
+            <img src="static/memes/3.png" alt="">
+          </div>
+          <div class="media-element">
+            <img src="static/memes/1.png" alt="">
+          </div>
+          <div class="media-element">
+            <img src="static/memes/2.png" alt="">
+          </div>
+          <div class="media-element">
+            <img src="static/memes/3.png" alt="">
+          </div>
+        </div>
+        <button id="right"><img src="static/next.png" alt="" /></button>
+      </div>
+        <p id="page_number">1/7</p>
+        <img class="coins two" src="static/Group 6.png" alt="" />
+        <img class="coins three" src="static/Group 7.png" alt="" />
+        <img class="coins four" src="static/Group 8.png" alt="" />
+      </div>
+      <div class="tokenomics home" id="tokenomics">
+        <h1>Tokenomics</h1>
+        <div class="text">
+          <div>
+            <span>CA:</span>
+            <p>0x6982508145454Ce325dDbE47a25d4ec3d2311933</p>
+          </div>
+          <a href="#">View Chart</a>
+          <div>
+            <span>Total Supply: 1,000,000,000,000</span>
+            <span>Token name: Knockles($Knockles)</span>
+            <p>
+              Our token has 0/0 tax on all buys and sells.
+              LP burnt and the contract ownership renounced.
+            </p>
+          </div>
+        </div>
+        <img class="coins one" src="static/Group 4.png" alt="" />
+        <img class="coins two" src="static/Group 6.png" alt="" />
+        <img class="coins three" src="static/Group 7.png" alt="" />
+        <img class="coins four" src="static/Group 8.png" alt="" />
+        <img src="static/tokenomics_cartoon.gif" class="tok_cartoon" alt="" />
+      </div>
+      <div class="knockle_maps" id="knockle_maps">
+        <h1>WHAT<br />WE ARE<br />COOKING?</h1>
+        <div class="CA_text">
+          <span>CA:</span>
+          <p>0x6982508145454Ce325dDbE47a25d4ec3d2311933</p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <span>Stage 1</span>
+            <h2>Exploring the Tribe</h2>
+            <p>Assemble a team and community of Knockles enthusiasts and memers.</p>
+            <p>Dig deep into the origins and cultural significance of Knockles.</p>
+            <p>Brainstorm unique features that will make our token stand out from the meme crowd.</p> 
+            </p>
+          </div>
+          <div class="card">
+            <span>Stage 2</span>
+            <h2>Spreading the Meme Virus</h2>
+            <p>Harness the power of our overlooked echidna brethren to spread the Knockles meme far and wide.</p>
+            <p>Establish partnerships with meme influencers and meme-lords to increase the saturation of our meme-coin.</p>
+            <p>Launch a vibrant and interactive social media campaign to mobilize the meme community.</p> 
+            </p>
+          </div>
+          <div class="card">
+            <span>Stage 3</span>
+            <h2>Embracing the Knockles Spirit</h2>
+            <p>Channel our inner Knockles warriors and strengthen the community's bond by organizing meme meet-ups.</p>
+            <p>Empower Knockles enthusiasts to contribute their artistic talents through meme contests and NFT creations.</p>
+            <p>Collaborate with charitable organizations to make a positive impact in the real world.</p> 
+            </p>
+          </div>
+          <div class="card">
+            <span>Stage 4</span>
+            <h2>Meme Legacy & Super Moon Jump</h2>
+            <p>Cement our place in meme history as the ultimate Knockles project.</p>
+            <!-- <p>Implement a pioneering governance system, where the community decides the direction of our meme-coin's future.</p> -->
+            <p>Expand our ecosystem by partnering with top-tier exchanges.</p>
+            <p>Achieve a mighty "Super Moon Jump" by rallying the Knockles tribe and riding the wave of success to new meme dimensions.</p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="follow" id="follow">
+        <a href="#" id="follow_1">Twitter</a>
+        <a href="#" id="follow_2">Telegram</a>
+        <a href="#" id="follow_3">Dex Chart</a>
+        <a href="#" id="follow_4">Contract</a>
+        <img src="static/Twitter.png" class="follow_img_1" alt="" />
+        <img src="static/Telegram.png" class="follow_img_2" alt="" />
+        <img src="static/DEX CHART.png" class="follow_img_3" alt="" />
+        <img src="static/CONTRACT.png" class="follow_img_4" alt="" />
+      </div>
+    </div>
+    <img src="static/bg-ellipse.png" alt="bg" class="bg_gradient" />
+    <footer class="footer">
+      <p>@2023 Knockles. All right reserved</p>
+      <img src="static/Sound.png" alt="sound" class="audio" />
+    </footer>
+    <audio id="player" autoplay loop>
+      <source src="static/audio.mp3" type="audio/mp3">
+    </audio>
+    <div class="temp"></div>
+    <script src="main.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/dist/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+  </body>
+</html>
